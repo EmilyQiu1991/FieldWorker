@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+      <TableLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Trait List Name:"/>
+            <EditText 
+                android:id="@+id/traitListName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+      <TableRow 
+          android:paddingTop="30dip"
+          android:paddingBottom="30dip" >
+          <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="top"
+                android:text="Choose traits:"/>
+          <TextView 
+              android:id="@+id/traits"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:scrollbars="vertical"
+              android:singleLine="false"
+              android:maxLines="15"
+              android:visibility="gone" 
+              android:textColor="#FF0000"/>
+      <Button
+        android:id="@+id/chooseTrait"
+      
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:text="Choose Traits"/>
+      
+     </TableRow>
+     </TableLayout>
+    <Button
+        android:id="@+id/result"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"/>
+</LinearLayout>

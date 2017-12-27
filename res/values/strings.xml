@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fieldworker1</string>
+    <string name="hello_world">Welcome!</string>
+    <string name="action_settings">Settings</string>
+    <string name="addTraitList">Add Trait List</string>
+    <string name="traits">Traits</string>
+    <string name="welcome">welcome!</string>
+    <string name="home">Home</string>
+    <string name="trait">Trait</string>
+    <string name="showTraitList">List1</string>
+    <string-array name="leaf">
+        <item >broad</item>
+        <item >opposite each other</item>
+        <item >compound</item>
+        <item >pinnately compound</item>
+        <item >other</item>
+    </string-array>
+    <string name="app_login">prototype</string>
+    <string name="home_title">Home Page</string>
+    <string name="action_reset_password">Reset Password</string>
+    <string name="action_logout">Logout</string>
+    <string name="reset_password_title">Reset Password</string>
+    <string name="observation_title">Observation</string>
+    <string name="observation_create">Create Observation</string>
+    <string name="observation_retrieve">View Observation</string>
+    <string name="addTrait">Add Trait</string>
+    <string name="validation_name">Please, enter the name</string>
+    <string name="validation_name_length">Please, enter the name with at least 3 characters</string>
+    <string name="validation_custom">Trait name already exists</string>
+    <string name="minValueNotEmpty">Please,enter the minimum value</string>
+    <string name="maxValueNotEmpty">Please enter the maximum</string>
+    <string name="minNumberValue">Please enter a number greater than 0</string>
+    <string name="notANumber">It is not a number</string>
+    <string name="some_text">Some other traitLists</string>
+</resources>

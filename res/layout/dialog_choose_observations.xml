@@ -1,0 +1,166 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="15dip"
+    android:paddingLeft="12dip"
+    android:paddingRight="12dip"
+    android:paddingTop="15dip" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:text="TraitList:" />
+
+        <Spinner
+            android:id="@+id/traitListSpinner_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dip"
+            android:minWidth="200dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:text="Trait1:" />
+
+        <Spinner
+            android:id="@+id/trait1Spinner_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dip"
+            android:minWidth="200dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:text="Trait2:" />
+
+        <Spinner
+            android:id="@+id/trait2Spinner_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dip"
+            android:minWidth="200dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:text="Chart Type:" />
+
+        <RadioGroup
+            android:id="@+id/trait1_radioGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/trait1_bar_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Bar" />
+
+            <RadioButton
+                android:id="@+id/trait1_line_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Line" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="From:" />
+
+        <EditText
+            android:id="@+id/trait1_from_date"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/et"
+            android:gravity="center_horizontal"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="To:" />
+
+        <EditText
+            android:id="@+id/trait1_to_date"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/et"
+            android:gravity="center_horizontal"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:scrollbarFadeDuration="10000000"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" >
+
+            <TableLayout
+                android:id="@+id/observation_choose_table"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                android:stretchColumns="1" >
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+            android:id="@+id/submit"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_x="189dp"
+            android:layout_y="297dp"
+            android:text="submit"
+            android:textSize="16sp" />
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" 
+	android:layout_height="match_parent"
+	android:orientation="vertical" 
+	android:paddingLeft="10dip"
+	android:paddingRight="10dip" 
+	android:paddingTop="1dip"
+	android:paddingBottom="1dip">
+	
+    
+    	<TableLayout
+	    android:id="@+id/templateTalbe"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:stretchColumns="1">
+	    <!--  <TableRow>
+	        <TextView 
+                    android:layout_width="match_parent"
+	                android:layout_height="wrap_content"                    
+                    android:text="Leaf:"  /> 
+             <Spinner 
+	                 android:id="@+id/spinner1"
+	                 android:layout_width="match_parent"
+	                 android:layout_height="wrap_content"/>
+	    </TableRow>-->
+	
+	</TableLayout>
+	<TableLayout
+	     android:layout_width="wrap_content"
+	    android:layout_height="wrap_content">
+	    <TableRow>
+	 <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete Traits"
+            android:textSize="13sp" />
+
+     <Button
+            android:id="@+id/addButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"          
+            android:text="Add Traits"
+            android:textSize="13sp" />
+      <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"          
+            android:text="Submit"
+            android:textSize="13sp" />
+     </TableRow>
+     </TableLayout>
+</LinearLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:id="@+id/table1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="10dip"
+        android:shrinkColumns="1,2"
+        android:stretchColumns="1" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="TraitList:"
+                android:textSize="6pt" />
+
+            <Spinner
+                android:id="@+id/traitList"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="Trait1:"
+                android:textSize="6pt" />
+
+            <Spinner
+                android:id="@+id/trait1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="Trait2:"
+                android:textSize="6pt" />
+
+            <Spinner
+                android:id="@+id/trait2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="Chart Type:"
+                android:textSize="6pt" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/radio0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Line" />
+
+                <RadioButton
+                    android:id="@+id/radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bar" />
+            </RadioGroup>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="From:"
+                android:textSize="6pt" />
+
+         <EditText
+                android:id="@+id/fromDate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1" />
+        </TableRow>
+
+       <TableRow>
+
+              <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="To:"
+                android:textSize="6pt" />
+
+             <EditText
+                android:id="@+id/toDate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/traitName2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1" />
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Submit" >
+    </Button>
+
+</LinearLayout>

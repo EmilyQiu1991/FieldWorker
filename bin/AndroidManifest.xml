@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fieldworker1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:name="com.example.validator.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/home" />
+        <activity
+            android:name=".TraitListActivity"
+            android:label="Trait Lists" />
+        
+        <activity
+            android:name=".ShowTraitList"
+            android:label="@string/showTraitList" >
+        </activity>
+        <activity
+            android:name=".FileTransActivity"
+            android:label="File Management" >
+        </activity>
+        <activity
+            android:name=".AddTraitList1"
+            android:label="@string/addTraitList" >
+        </activity>
+        <activity
+            android:name=".TraitActivity"
+            android:label="@string/traits" />
+        <activity
+            android:name=".ShowTrait"
+            android:label="@string/trait" />
+        <activity
+            android:name=".AddTraitActivity"
+            android:label="@string/trait" />
+        <activity
+            android:name="com.example.fieldworker1.ResetPasswordActivity"
+            android:label="@string/reset_password_title" >
+        </activity>
+        <activity
+            android:name="com.example.fieldworker1.ObservationListActivity"
+            android:label="@string/observation_title" >
+        </activity>
+        <activity
+            android:name="com.example.fieldworker1.CreateObservationActivity"
+            android:label="@string/observation_create" >
+        </activity>
+        <activity
+            android:name="com.example.fieldworker1.ObservationActivity"
+            android:label="@string/observation_retrieve" >
+        </activity>
+        <activity
+            android:name="com.example.fieldworker1.NoteActivity"
+            android:label="NOTE" >
+        </activity>
+        <activity
+            android:name="com.example.fieldworker1.EditObservation"
+            android:label="EDIT OBSERVATION" >
+        </activity>
+        <activity android:name="com.example.fieldworker1.DrawPicture" >
+        </activity>
+        <activity android:name="com.example.fieldworker1.DataChart" >
+        </activity>
+        <activity android:name="org.achartengine.GraphicalActivity" />
+        <activity android:name="com.example.fieldworker1.DownloadTraitListActivity"></activity>
+        <activity android:name="com.example.phpServer.ShowTraitListPhp"></activity>
+        <activity android:name="com.example.fieldworker1.TraitListActivity2"></activity>
+        <activity android:name="com.example.fieldworker1.DataAnalysisAcitivity"></activity>
+    </application>
+
+</manifest>

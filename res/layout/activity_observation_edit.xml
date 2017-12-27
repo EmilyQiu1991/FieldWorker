@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.stprototype.EditObservationActivity" >
+
+    <AbsoluteLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageButton
+            android:id="@+id/cameraButton_Edit"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_x="280dp"
+            android:layout_y="187dp"
+            android:background="@drawable/et"
+            android:src="@android:drawable/ic_menu_camera" />
+
+        <Gallery
+            android:id="@+id/gallery_observation_edit"
+            android:layout_width="155dp"
+            android:layout_height="170dp"
+            android:layout_x="170dp"
+            android:layout_y="2dp"
+            android:spacing="1dp"
+            android:unselectedAlpha="0.5" />
+
+        <Button
+            android:id="@+id/addDeletingDeadline"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_x="190dp"
+            android:layout_y="187dp"
+            android:text="Pick Date"
+            android:background="@drawable/et"
+            android:gravity="center"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/editTraitListObser"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_x="10dp"
+            android:layout_y="113dp"
+            android:editable="false"
+            android:background="@drawable/et"
+            android:gravity="center_horizontal"
+            android:scrollbars="horizontal"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="10dp"
+            android:layout_y="10dp"
+            android:text="Observation Name:"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/observationEditNameFieldObser"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_x="10dp"
+            android:layout_y="43dp"
+            android:background="@drawable/et"
+            android:gravity="center_horizontal"
+            android:scrollbars="horizontal"
+            android:singleLine="true"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="10dp"
+            android:layout_y="80dp"
+            android:text="Trait List:"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="10dp"
+            android:layout_y="160dp"
+            android:text="Modify Deadline:"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/observationEditDeletingDeadlineField"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_x="10dp"
+            android:layout_y="195dp"
+            android:background="@drawable/et"
+            android:gravity="center_horizontal"
+            android:editable="false"
+            android:textSize="17sp" />
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="235dp"
+            android:layout_x="0dp"
+            android:layout_y="240dp"
+            android:scrollbars="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent" >
+
+                <TableLayout
+                    android:id="@+id/observationEdit_table"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="vertical"
+                    android:stretchColumns="1" >
+                </TableLayout>
+            </LinearLayout>
+        </ScrollView>
+    </AbsoluteLayout>
+
+</RelativeLayout>

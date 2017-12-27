@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dip" >
+
+    <ImageView
+        android:id="@+id/iv_canvas"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_x="0dp"
+        android:layout_y="40dp"
+        android:background="@drawable/et" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="274dp"
+        android:layout_y="230dp"
+        android:background="@drawable/et"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/btn_resume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="183dp"
+        android:layout_y="230dp"
+        android:background="@drawable/et"
+        android:text="Reset" />
+
+    <TextView
+        android:id="@+id/observationName_note"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_y="5dp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="4dp"
+        android:layout_y="260dp"
+        android:text="Previous Drawing:"
+        android:textSize="20sp" />
+
+    <com.example.fieldworker1.GalleryView
+        android:id="@+id/note_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        android:spacing="30dp"
+        android:layout_x="0dp"
+        android:layout_y="300dp"
+        android:background="@drawable/et"
+        android:unselectedAlpha="128" />
+
+<!--     <ImageView
+        android:id="@+id/iv_canvas_old"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_x="0dp"
+        android:layout_y="280dp"
+        android:background="@drawable/et" /> -->
+
+</AbsoluteLayout>

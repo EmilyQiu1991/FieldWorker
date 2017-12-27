@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.stprototype.MainActivity" >
+
+    <AbsoluteLayout
+        android:id="@+id/widget32"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_x="69dp"
+            android:layout_y="300dp"
+            android:text="Register"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/LoginButton"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_x="189dp"
+            android:layout_y="297dp"
+            android:text="Login"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/usernameTextField"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_x="165dp"
+            android:layout_y="127dp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/passwordTextField"
+            android:inputType = "textPassword"
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:layout_x="170dp"
+            android:layout_y="196dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_x="56dp"
+            android:layout_y="136dp"
+            android:text="Username:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_x="64dp"
+            android:layout_y="207dp"
+            android:text="Password:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/titel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="15dp"
+            android:layout_y="24dp"
+            android:text="Fieldwork Plant Observation App"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </AbsoluteLayout>
+
+</RelativeLayout>

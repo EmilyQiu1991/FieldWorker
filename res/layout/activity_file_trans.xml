@@ -1,0 +1,147 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.stprototype.MainActivity" >
+
+    <AbsoluteLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="15dp"
+            android:layout_y="20dp"
+            android:text="Excel File Management"
+            android:textSize="10pt"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Excel_File_Selected_Up"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_x="85dp"
+            android:layout_y="85dp"
+            android:editable="false"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/Excel_File_Choose_Button_Up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="230dp"
+            android:layout_y="80dp"
+            android:text="Choose File"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/Excel_File_Upload_Button_Up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="5dp"
+            android:layout_y="80dp"
+            android:text="Upload"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="10dp"
+            android:layout_y="240dp"
+            android:text="Image File Management"
+            android:textSize="10pt"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Excel_File_Download_Button_Down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="160dp"
+            android:text="Download"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/Excel_File_Choose_Button_Down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="230dp"
+            android:layout_y="160dp"
+            android:text="Choose File"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/Excel_File_Selected_Down"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_x="85dp"
+            android:layout_y="165dp"
+            android:editable="false"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/Image_File_Upload_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="5dp"
+            android:layout_y="300dp"
+            android:text="Upload"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/Image_File_Selected_Up"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_x="85dp"
+            android:layout_y="305dp"
+            android:editable="false"
+            android:ems="10"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/Image_File_Choose_Button_Up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="230dp"
+            android:layout_y="300dp"
+            android:text="Choose File"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/Image_File_Download_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="380dp"
+            android:text="Download"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/Image_File_Selected_Down"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_x="85dp"
+            android:layout_y="378dp"
+            android:editable="false"
+            android:ems="10"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/Image_File_Choose_Button_Down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="230dp"
+            android:layout_y="380dp"
+            android:text="Choose File"
+            android:textSize="14sp" />
+
+    </AbsoluteLayout>
+
+</RelativeLayout>
