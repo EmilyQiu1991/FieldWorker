@@ -5,7 +5,13 @@ features:
   data analysis tool,
   create observation data,
   data sync bewteen multiple devices
-![1514416411854](https://user-images.githubusercontent.com/9787306/34395942-9b801944-eb2a-11e7-84ec-d971882fcf0f.jpg)
-![1514416417334](https://user-images.githubusercontent.com/9787306/34395952-c63c0710-eb2a-11e7-8663-0ce8b300b9e7.jpg)
-![1514416420633](https://user-images.githubusercontent.com/9787306/34395953-c64b5d14-eb2a-11e7-80a8-7f1d9263322d.jpg)
+
+Main Page
+![1514416411854](https://user-images.githubusercontent.com/9787306/34396019-8eb6cedc-eb2b-11e7-87e1-fed11d416d57.jpg)
+Template page
+![1514417312668](https://user-images.githubusercontent.com/9787306/34396022-8ee63fbe-eb2b-11e7-8677-cd3080d9a0e8.jpg)
+Set values for data analysis
+![1514416420633](https://user-images.githubusercontent.com/9787306/34396021-8ed6cb1a-eb2b-11e7-9ec8-c87a8576c6ae.jpg)
+Data analysis result page
+![1514416417334](https://user-images.githubusercontent.com/9787306/34396020-8ec7a2f2-eb2b-11e7-8793-f459cb3b2825.jpg)
 
