@@ -8,6 +8,11 @@ features:
 
 Main Page
 
+Each management module provide some functionality
+
+one of the classic procedure would be : create some traits, create a template by choose some traits, choose a template to create observations , choose observatons to generate data analysis diagram
+
+
 ![1514416411854](https://user-images.githubusercontent.com/9787306/34396019-8eb6cedc-eb2b-11e7-87e1-fed11d416d57.jpg)
 
 Template page
