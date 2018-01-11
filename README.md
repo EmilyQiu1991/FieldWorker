@@ -11,6 +11,7 @@ Main Page
 ![1514416411854](https://user-images.githubusercontent.com/9787306/34396019-8eb6cedc-eb2b-11e7-87e1-fed11d416d57.jpg)
 
 Template page
+Note : every trait in this template is added by user, completely user customized template
 
 ![1514417312668](https://user-images.githubusercontent.com/9787306/34396022-8ee63fbe-eb2b-11e7-8677-cd3080d9a0e8.jpg)
 
